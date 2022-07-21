@@ -7,188 +7,187 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Daniel Enders
+    tagline: Devops Engineer
+    avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: daniel.enders91@gmail.com
+    phone: 
+    timezone: America/Central
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website:
+    linkedin: danielenders91
+    xing: 
+    github: sredne
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
-    languages:
-      - idiom: English
-        level: Native
+    # languages:
+    #   - idiom: English
+    #     level: Native
 
-      - idiom: French
-        level: Professional
+    #   - idiom: French
+    #     level: Professional
 
-      - idiom: Spanish
-        level: Professional
+    #   - idiom: Spanish
+    #     level: Professional
 
-    interests:
-      - item: Climbing
-        link:
+    # interests:
+    #   - item: Climbing
+    #     link:
 
-      - item: Snowboarding
-        link:
+    #   - item: Snowboarding
+    #     link:
 
-      - item: Cooking
-        link:
+    #   - item: Cooking
+    #     link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Devops Engineer with 6+ years of administering and automating on-premise and cloud infrastructure as code, developing CI\CD pipelines using Jenkins, Concourse and Gitlab, and building tools and processes that assist in application deployment.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: BSc in Computer Science
+      university: University of Illinois at Urbana/Champaign
+      time: 2009 - 2013
+      details:
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Devops Engineer
+      time: Sept. 2020 - March 2022
+      company: Tempus Labs, Inc, Chicago
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - Embedded as an SRE that directly supported the trials and therapies application infrastructure.
+        - Migrated one of the company's first core application infrastructures from AWS to GCP.
+        - Built cross cloud communication modules to support infrastructures in both AWS and GCP during transition.
+        - Created re-usable Concourse pipeline Terraform modules to be distributed accross teams for fast and reliable job creation.
+        - Maintained and built a set of in house tools to improve developer productivity.
+    - role: Devops Engineer
+      time: Jun. 2019 - Aug. 2020
+      company: PowerReviews, Chicago
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Migrated applications from EC2 server deployments to a modern docker in ECS deployment model.
+        - Updated core infrastructure from legacy Puppet deployments to modernized Ansible.
+        - Developed tooling and processes to utilize GitLab as the primary CI$\backslash$CD platform.
+        - Responsible for the uptime of all applications in our AWS infrastructure.
+    - role: Systems Engineer
+      time: Oct. 2018 - Jun. 2019
+      company: Relativity ODA LLC, Chicago
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - Automated the deployment of ephemeral Jenkins infrastructure using Terraform.
+        - Upgraded Chef cookbooks to Chef 14 and introduced KitchenCI to cookbook development.
+        - Converting on premise build agent infrastructure to be provisioned in Azure and fully configured with Chef.
+        - Configure Jenkins job pipelines as code with Job DSL and seeder jobs to better support GitFlow.
+    - role: Systems Administrator
+      time: Oct. 2016 - Oct. 2018
+      company: Relativity ODA LLC, Chicago
+      details: |
+        - Automated the process to spin up multi server development environments for the company's software package.
+        - Key resource in migration of production machines from VMWare to Hyper-V as the primary virtualization hypervisor.
+        - Implemented security hardening to existing CI$\backslash$CD pipeline processes.
+        - Assisted in replacing legacy build servers to new hardware.
+        - Developed internal Chef cookbooks for back office configuration management.
+        - Created Jenkins processes to be used for back office application deployment.
+        - Primary owner of backoffice development applications such as Bitbucket, Jenkins, Teamcity, and Elasticsearch clusters.
+    - role: Infrastructure Engineer
+      time: Jan. 2015 - Oct. 2016
+      company: Relativity ODA LLC, Chicago
+      details: |
+        - Lead the project to optimize and automate parts the deployment process for the company's main software package to customers.
+        - Assisted team members and provide support and solutions to customer queries in relation to system infrastructure.
+        - Built out custom servers with company software loaded and configured for immediate use by clients.
+        - Set up internal server farm to simulate customer environments for testing different configurations and new features.\
+    - role: Web Developer
+      time: Apr. 2014 - Sept. 2014
+      company: Scout Security, Chicago
+      details: |
+        - Helped create the home management portal to allow users to arm, disarm, and modify their home systems.
+        - Tested hardware systems by developing the testing application used in factory fabrication verification.
+        - Created an ember.js app to assist users in signing up for home monitoring subscriptions.
+    - role: Web Developer
+      time: Jun. 2013 - Apr. 2014
+      company: Adage Technologies, Chicago
+      details: |
+        - Developed websites and web applications for clients in various industries, but specializing in the performance arts.
+        - Direct contact with clients throughout the entire development process.
+        - Develop using a C\# backend on top of .NET with Javascript for the frontend.
+        - Focus in client side development using backbone.js with grunt.js and require.js.
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+#     toolset:
+#       - name: Terraform
+#         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+#       - name: AWS
+#         level: 98%
 
-      - name: Angular
-        level: 98%
+#       - name: Angular
+#         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+#       - name: HTML5 & CSS
+#         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+#       - name: Ruby on Rails
+#         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+#       - name: Sketch & Photoshop
+#         level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
